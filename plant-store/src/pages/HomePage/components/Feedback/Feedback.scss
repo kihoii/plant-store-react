@@ -1,0 +1,32 @@
+@import "../../../../components/variables";
+
+@media (width > 900px) {
+    .feedback-section {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .feedback-cards-group {
+        display: flex !important;
+        gap: 110px;
+    }
+}
+
+.feedback-section-title hr {
+    width: 9%;
+    height: 2px;
+    margin: 10px auto 0 auto;
+    background-color: $green-very-light;
+    border: 0px;
+    opacity: 20%;
+}
+
+.feedback-section-comma {
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: $green-dark-04;
+    text-align: center;
+    margin-bottom: -17px;
+}
