@@ -1,0 +1,47 @@
+@import "../../../../components/variables";
+
+.our-story-section {
+    gap: 110px;
+    padding-right: 76px;
+}
+
+.our-story-banner {
+    width: 570px;
+    height: 650px;
+    object-fit: cover;
+    object-position: 50% 15%;
+    border-radius: 10px;
+}
+
+.our-story-head {
+    margin-bottom: 35px;
+
+    h3 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 160%;
+        color: $green-light;
+        margin-bottom: 15px;
+    }
+
+    h4 {
+        font-family: "Sora", sans-serif;
+        font-weight: 400;
+        font-size: 40px;
+    }
+}
+
+.our-story-text {
+    width: 556px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 160%;
+    margin-bottom: 55px;
+}
