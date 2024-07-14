@@ -1,0 +1,45 @@
+@import "../../../../components/variables";
+
+.get-in-touch-form {
+
+    h4 {
+        margin-bottom: 40px;
+        font-size: 24px;
+        font-weight: 400;
+    }
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: start;
+}
+
+.contact-form-input {
+
+    label {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 6px;
+
+        span {
+            color: #FF0000;
+        }
+    }
+
+    input {
+        width: 610px;
+        height: 40px;
+        background: none;
+        border-radius: 5px;
+        border-width: 1.5px;
+        border-color: rgba(0, 0, 0, 0.2);
+        padding-left: 8px;
+    }
+
+    #comment {
+        height: 110px;
+        margin-bottom: 10px;
+    }
+}

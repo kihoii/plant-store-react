@@ -1,0 +1,48 @@
+.contacts-group {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+}
+
+.physics {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 4%;
+    gap: 15px;
+
+    img {
+        grid-column: 1;
+        height: 20px;
+    }
+
+    .contact-type {
+        grid-column: 2;
+
+        h4 {
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+.websites {
+    display: flex;
+    gap: 25px;
+
+    h4 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+}

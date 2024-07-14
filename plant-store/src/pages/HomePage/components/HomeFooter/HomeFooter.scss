@@ -1,0 +1,42 @@
+@import "../../../../components/variables";
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+#get-in-touch {
+    font-family: "Sora", sans-serif;
+    background-color: $get-in-touch-background;
+    display: flex;
+    justify-content: center;
+}
+
+.get-in-touch-section {
+    grid-template-columns: 580px 610px;
+    gap: 122px;
+    padding: 109px 0;
+}
+
+.get-in-touch-info {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    .head {
+        h3 {
+            font-weight: 400;
+            font-size: 40px;
+            letter-spacing: 1px;
+            margin-bottom: 25px;
+        }
+
+        p {
+            width: 580px;
+            letter-spacing: 0.75px;
+            line-height: 140%;
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }
+}
