@@ -1,0 +1,36 @@
+#gift-cards {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("./assets/gift-cards-banner.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.gift-cards-text {
+    font-family: "Sora", sans-serif;
+    color: white;
+    margin: 225px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        margin-top: 20px;
+        font-size: 65px;
+    }
+
+    p {
+        margin-top: 15px;
+        margin-bottom: 40px;
+        font-size: 16px;
+    }
+
+    h3,
+    h4,
+    p {
+        font-weight: 400;
+    }
+}
