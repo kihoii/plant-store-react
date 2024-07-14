@@ -1,0 +1,46 @@
+@import '../variables';
+
+.button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 12px 33px;
+    cursor: pointer;
+}
+
+.white {
+    color: black;
+    background-color: white;
+}
+
+.green {
+    border-radius: 10px;
+    padding: 12px 39px;
+    color: white;
+    background-color: $green-light;
+}
+
+.wide {
+    border-radius: 5px;
+    padding-right: 71px;
+    padding-left: 71px;
+}
+
+.light-wide {
+    padding-left: 42px;
+    padding-right: 42px;
+}
+
+.wide-footer {
+    border-radius: 5px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+}

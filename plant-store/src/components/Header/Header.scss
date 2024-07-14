@@ -1,0 +1,38 @@
+@import '../variables.scss';
+
+.nav-main {
+    padding-top: 30px;
+    width: 1312px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+.nav-left {
+    font-size: 40px;
+}
+
+.nav-right {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 46px;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.cart img {
+    width: 25px;
+}
+
+.burger img {
+    width: 20px;
+    margin-left: 5px;
+}
