@@ -1,0 +1,19 @@
+#new-plants {
+    font-family: "Poppins", sans-serif;
+}
+
+@media (width > 900px) {
+    .new-plants-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .plants-group {
+        display: flex !important;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 35px;
+    }
+}

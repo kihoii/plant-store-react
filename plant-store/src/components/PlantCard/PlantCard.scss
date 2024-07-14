@@ -1,0 +1,19 @@
+.plant-image {
+    width: 414px;
+    height: 454px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.plant-name {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.plant-price {
+    font-size: 14px;
+    font-weight: 600;
+}
